@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Presentation</name>
+    </assembly>
+    <members>
+        <member name="M:Presentation.Controllers.CategoryController.GetAll">
+            <summary>
+            Category siyahi qaytarir
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Presentation.Controllers.CategoryController.Get(System.Int32)">
+            <summary>
+            Categorylerden id-e gore axtaris
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Presentation.Controllers.CategoryController.Create(Business.DTOs.Category.Request.CategoryCreateDTO)">
+            <summary>
+            Category yaraldilmasi 
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:Presentation.Controllers.CategoryController.Update(Business.DTOs.Category.Request.CategoryUpdateDTO)">
+            <summary>
+            Category update ucun istifade edilir
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Presentation.Controllers.CategoryController.Delete(System.Int32)">
+            <summary>
+            Category silinmesi ucun istifade edilir
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
